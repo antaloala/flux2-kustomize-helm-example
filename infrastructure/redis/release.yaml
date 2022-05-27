@@ -15,7 +15,10 @@ spec:
   interval: 1h0m0s
   install:
     remediation:
-      retries: 3
+    # antaloala changes START
+      # retries: 3
+      retries: 4
+    # antaloala changes END
   valuesFrom:
     - kind: ConfigMap
       name: redis-values
