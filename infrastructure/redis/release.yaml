@@ -12,7 +12,10 @@ spec:
         name: bitnami
         namespace: flux-system
       version: "11.3.4"
-  interval: 1h0m0s
+  # antaloala changes START
+  # interval: 1h0m0s
+  interval: 5m0s
+  # antaloala changes END
   install:
     remediation:
     # antaloala changes START
