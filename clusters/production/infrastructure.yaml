@@ -7,7 +7,10 @@ spec:
   interval: 10m0s
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    # antaloala changes START
+    # name: flux-system
+    name: flux2-kustomize-helm-example
+    # antaloala changes END
   path: ./infrastructure
   prune: true
 
