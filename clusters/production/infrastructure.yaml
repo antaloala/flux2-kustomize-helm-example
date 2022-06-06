@@ -4,7 +4,10 @@ metadata:
   name: infrastructure
   namespace: flux-system
 spec:
-  interval: 10m0s
+  # antaloala changes START
+  # interval: 10m0s
+  interval: 1m0s
+  # antaloala changes END
   sourceRef:
     kind: GitRepository
     # antaloala changes START
